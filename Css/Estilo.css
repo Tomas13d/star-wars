@@ -1,0 +1,97 @@
+.darkside {
+    background-color: red;
+}
+
+.lightside {
+    background-color: blue;
+}
+
+#badboy {
+    font-size: 200%;
+    border: 5px outset red;
+}
+
+#goodboy {
+    font-style: italic;
+    border: 5px outset blue;
+    font-size: 200%;
+}
+ .soldados {
+     border: 4px dashed lightyellow;
+     letter-spacing: 4px;
+}
+ .apoyo {
+     text-align: center;
+ }
+
+ .naves {
+     text-transform: uppercase;
+     
+ }
+.centrado {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Star_1';
+    src: url('../Css/Fuentes/Starjout.ttf');
+}
+@font-face {
+    font-family: 'Star_2';
+    src: url('../Css/Fuentes/Starjhol.ttf');
+}
+@font-face {
+    font-family: 'Star_3';
+    src: url('../Css/Fuentes/Starjedi.ttf');
+}
+
+
+.letra_titulos {
+    font-family: "Star_1";
+    font-size: 200%;
+    margin-right: auto;
+      margin-left: auto;
+      background-color: rgba(248, 251, 18, 0.7);
+      border-radius: 50px;
+      color: black;
+      width: 50%;
+    
+
+}
+#mas_chico {
+    font-size: 80%;
+}
+ .letra_malos {
+     font-family: "Star_3";
+     font-size: 150%;
+     margin-right: auto;
+       margin-left: auto;
+       background-color: rgba(245, 27, 27, 0.7);
+       border-radius: 50px;
+       color: white;
+       width: 35%;
+ }
+
+ .letra_buenos {
+     font-family: "Star_2";
+     font-size: 150%;
+     margin-right: auto;
+       margin-left: auto;
+       background-color: rgba(46, 121, 219, 0.815);
+       border-radius: 50px;
+       color: white;
+       width: 35%;
+
+ }
+  body {
+      background-image: url('../Css/Imagenes/Fondo.jpg');
+      text-align: center;
+      
+  }
+img {
+    height: 200px;
+    width: auto;
+}
+ul {
+    list-style: none;
+}
